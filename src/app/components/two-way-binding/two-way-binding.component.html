@@ -1,0 +1,9 @@
+<div class="aula">
+    <h2>fomularios</h2>
+    <form action="">
+        <input type="text" [(ngModel)]="name" name="name" placeholder="digite seu nome">
+        <input type="submit" (click)="handleClick()">
+    </form>
+    <p *ngIf=" name !== ''">bufer: {{name}}</p>
+    <p *ngIf="nomeDefinitivo !== ''">Submit = {{nomeDefinitivo}}</p>
+</div>
