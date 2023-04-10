@@ -1,0 +1,8 @@
+{
+    "animals":[
+        {"id": 1, "tipo": "cão", "nome": "Jones", "idade": 3},
+        {"id": 2, "tipo": "gato", "nome": "estevão", "idade": 2},
+        {"id": 3, "tipo": "passaro", "nome": "alexandre", "idade": 1},
+        {"id": 4, "tipo": "cão", "nome": "Viviane", "idade": 7}
+    ]
+}
